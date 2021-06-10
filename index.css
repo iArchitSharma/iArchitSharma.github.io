@@ -2,7 +2,7 @@
     vertical-align: top;
     box-sizing: border-box;
     background-color: #f2f2e9;
-    color: #12a131;
+    color: #24260f;
     font-family: lato, sans-serif;
     font-weight: 300;
     line-height: 36px;
@@ -24,7 +24,7 @@ body {
 .top-content {
     width: 1027px;
     height: 300px;
-    background-color: #24260f;
+    background-color: #12a131;
     margin-right: auto;
     margin-left: auto;
 }
