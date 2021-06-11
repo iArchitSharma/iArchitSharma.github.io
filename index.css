@@ -285,7 +285,7 @@ img {
     width: 150px;
     height: 150px;
     display: inline-block;
-    background: #c1d7ae;
+    background: #aebbd7;
     border-radius: 100%;
     position: relative;
     overflow: hidden;
@@ -344,7 +344,7 @@ img {
     width: 150px;
     height: 150px;
     display: inline-block;
-    background: #c1d7ae;
+    background: #aebbd7;
     border-radius: 100%;
     position: relative;
     overflow: hidden;
@@ -436,7 +436,7 @@ img {
     width: 15px;
     height: 15px;
     border-radius: 100%;
-    background-color: #c1d7ae;
+    background-color: #aebbd7;
     margin-top: 10px;
     margin-right: 2px;
 }
