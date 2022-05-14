@@ -13,6 +13,7 @@
     <img align="left" alt="Archit Sharma | Leetcode" width="24px" src="https://iarchitsharma.github.io/iArchitSharma/Assets/leetcode.png" />
   </a>
 
+<br>
 
 💻 **Aspiring Software Developer** and **first-year computer science student**🎓. My passion for Computer Science brought me here. I am eager to learn new technologies and apply them to either develop something helpful or improve existing applications.
 
