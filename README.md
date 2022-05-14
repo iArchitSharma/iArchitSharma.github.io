@@ -13,6 +13,7 @@
 
 <h2> About Me 👨‍</h2>
 💻 **Aspiring Software Developer** and **first-year computer science student**🎓. My passion for Computer Science brought me here. I am eager to learn new technologies and apply them to either develop something helpful or improve existing applications.
+  <br>
 <img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 
 -  🔭 I'm currently learning **Backend Web Development** 🙋‍♂️and improving my **Data Structure** and **Algorithm** skills👨‍💻.
