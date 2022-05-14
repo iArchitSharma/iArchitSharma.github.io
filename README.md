@@ -47,3 +47,6 @@
 
 ![Archit's GitHub stats](https://github-readme-stats.vercel.app/api?username=iArchitSharma&count_private=true&show_icons=true&theme=tokyonight)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iArchitSharma&layout=compact&theme=tokyonight)
+
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=iarchitsharma.iarchitsharma)
