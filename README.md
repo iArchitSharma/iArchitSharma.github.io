@@ -2,14 +2,22 @@
 <img width="100%" height = "250px" src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" alt="cover" />
 </div>
 
-<h1> Hello Fellow < Developers/ >! <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 50px> </h1>
-<p align='center'>
+## Hey <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">, I'm [Archit!](https://iarchitsharma.github.io/) 
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/iArchitSharma.https://github.com/iArchitSharma)
+<a href="https://www.linkedin.com/in/iarchitsharma/">
+    <img align="left" alt="Archit Sharma | Linkedin" width="24px" src="https://iarchitsharma.github.io/iArchitSharma/Assets/Linkedin.svg" />
+  </a> &nbsp;&nbsp;
+<a href="https://twitter.com/iarchitsharma">
+    <img align="left" alt="Archit Sharma | Twitter" width="26px" src="https://iarchitsharma.github.io/iArchitSharma/Assets/Twitter.svg" />
+  </a> &nbsp;&nbsp;
+<a href="mailto:archits@duck.com">
+    <img align="left" alt="Archit Sharma | Gmail" width="26px" src="https://iarchitsharma.github.io/iArchitSharma/Assets/Gmail.svg" />
+  </a> &nbsp;&nbsp;
+<a href="https://leetcode.com/iArchitSharma/">
+    <img align="left" alt="Archit Sharma | Leetcode" width="24px" src="https://iarchitsharma.github.io/iArchitSharma/Assets/leetcode.png" />
+  </a>
 
-</p>
-<div size='20px'> Hi! My name is Archit. Thank You for taking the time to view my GitHub Profile :smile: 
-</div>
+<br />
 
 <h2> About Me 👨‍</h2>
 💻 **Aspiring Software Developer** and **first-year computer science student**🎓. My passion for Computer Science brought me here. I am eager to learn new technologies and apply them to either develop something helpful or improve existing applications.
