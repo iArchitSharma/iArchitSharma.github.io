@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="icon" href="img/favicon.png" type="image/webp">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png" type="image/webp"/>
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css" />
     <link href="/dist/output.css" rel="stylesheet">
-
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Quicksand:wght@300&display=swap');
+      </style>
     
     <script>
       // On page load or when changing themes, best to add inline in `head` to avoid FOUC
@@ -21,7 +22,7 @@
     </script>
 
 </head>
-<body class="bg-blue-50">
+<body class="bg-blue-50 dark:bg-gray-900">
    <!--Top Navigation bar starts--> 
    <nav class="bg-blue-50 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
@@ -41,7 +42,7 @@
             <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Social Media</a>
+            <a href="#myblog" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
           </li>
           <li>
             <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Skills</a>
@@ -104,6 +105,173 @@
     
     </section>
   <!--Hero section ends-->
+
+  <!--Blog section start-->
+  <section id="myblog" class="bg-blue-50 dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+            <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-Inter text-gray-900 dark:text-white">My Blog</h2>
+            <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">One of my greatest soft skills comes from my blog, which acts as a learning platform for both myself and other developers. Here are my top 4 blogs</p>
+        </div> 
+        <div class="grid gap-8 lg:grid-cols-2">
+          <!--Article 1-->
+            <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <div class="flex justify-between items-center mb-5 text-gray-500">
+                  <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                    <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                    Article
+                </span>
+                    <span class="text-sm">dev.to</span><!--add date or site on which published-->
+                </div>
+                <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="https://dev.to/iarchitsharma/the-history-of-javascript-5e98">The History of JavaScript</a></h2>
+                <p class="mb-5 font-light text-gray-500 dark:text-gray-400">On Christmas Day 1990, Sir Tim Berners-Lee introduced the world to the first web browser he had created in Switzerland on the NeXT computer system and around the same time, he also created the first web server.</p>
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center space-x-4">
+                        <img class="w-7 h-7 rounded-full" src="src/img/profile1.jpg" alt="Archit Sharma" />
+                        <span class="font-medium dark:text-white">
+                            Archit Sharma
+                        </span>
+                    </div>
+                    <a href="https://dev.to/iarchitsharma/the-history-of-javascript-5e98" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                        Read more
+                        <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+            </article> 
+            <!--Article 2-->
+            <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <div class="flex justify-between items-center mb-5 text-gray-500">
+                    <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                        <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                        Article
+                    </span>
+                    <span class="text-sm">dev.to</span><!--add date or site on which published-->
+                </div>
+                <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="https://dev.to/iarchitsharma/you-need-to-learn-kubernetes-right-now-583d">You need to learn Kubernetes RIGHT NOW!! 🚀</a></h2>
+                <p class="mb-5 font-light text-gray-500 dark:text-gray-400">This article is for those who want to learn Kubernetes as a beginner. This article takes an example of scaling a website to make you understand the concept of Kubernetes.</p>
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center space-x-4">
+                        <img class="w-7 h-7 rounded-full" src="src/img/profile1.jpg" alt="Archit Sharma" />
+                        <span class="font-medium dark:text-white">
+                            Archit Sharma
+                        </span>
+                    </div>
+                    <a href="https://dev.to/iarchitsharma/you-need-to-learn-kubernetes-right-now-583d" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                        Read more
+                        <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+            </article> 
+            <!--Article 3-->
+            <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <div class="flex justify-between items-center mb-5 text-gray-500">
+                <span
+                  class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                  <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
+                      clip-rule="evenodd"></path>
+                    <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
+                  </svg>
+                  Article
+                </span>
+                <span class="text-sm">dev.to</span>
+                <!--add date or site on which published-->
+              </div>
+              <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="https://dev.to/iarchitsharma/the-history-of-kubernetes-4kkd">The History of Kubernetes⏱️</a></h2>
+              <p class="mb-5 font-light text-gray-500 dark:text-gray-400">To begin our Kubernetes history, we must begin with Google.
+                Google faced a major issue in the early 2000s. </p>
+              <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                  <img class="w-7 h-7 rounded-full" src="src/img/profile1.jpg" alt="Archit Sharma" />
+                  <span class="font-medium dark:text-white">
+                    Archit Sharma
+                  </span>
+                </div>
+                <a href="https://dev.to/iarchitsharma/the-history-of-kubernetes-4kkd"
+                  class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                  Read more
+                  <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                </a>
+              </div>
+            </article>
+            
+            <!--Article 4-->
+            <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <div class="flex justify-between items-center mb-5 text-gray-500">
+                <span
+                  class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                  <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
+                      clip-rule="evenodd"></path>
+                    <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
+                  </svg>
+                  Article
+                </span>
+                <span class="text-sm">dev.to</span> <!--add date or site on which published-->
+              </div>
+              <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="https://dev.to/iarchitsharma/top-3-ways-to-center-a-div-with-css-2ch3">Top 3 Ways to Center a DIV with CSS 🚀</a></h2>
+              <p class="mb-5 font-light text-gray-500 dark:text-gray-400">The most difficult thing a web developer will ever have to accomplish is use CSS to center a div both horizontally and vertically.</p>
+              <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                  <img class="w-7 h-7 rounded-full" src="src/img/profile1.jpg" alt="Archit Sharma" />
+                  <span class="font-medium dark:text-white">
+                    Archit Sharma
+                  </span>
+                </div>
+                <a href="https://dev.to/iarchitsharma/top-3-ways-to-center-a-div-with-css-2ch3"
+                  class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                  Read more
+                  <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                </a>
+              </div>
+            </article>
+            <!--end-->
+        </div>  
+        
+    </div>
+  </section>
+  <!--Blog section ends-->
+
+  <!--Footer starts-->
+  <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+    <div class="mx-auto max-w-screen-xl text-center">
+        <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
+          <img src="src/img/logo.svg" class="mr-3 h-6 sm:h-9" alt="Archit Portfolio">
+                
+        </a>
+        <p class="my-6 text-gray-500 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam quae est ullam tempore iusto fugiat aperiam!</p>
+        <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+            <li>
+                <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+            </li>
+            <li>
+                <a href="#" class="mr-4 hover:underline md:mr-6">Social Media</a>
+            </li>
+            <li>
+                <a href="#" class="mr-4 hover:underline md:mr-6 ">Skills</a>
+            </li>
+            <li>
+                <a href="#myblog" class="mr-4 hover:underline md:mr-6">Blog</a>
+            </li>
+            <li>
+                <a href="#" class="mr-4 hover:underline md:mr-6">Contact</a>
+            </li>
+            
+        </ul>
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright © 2022 <a href="#" class="hover:underline">Archit Sharma</a>. All Rights Reserved.</span>
+    </div>
+  </footer>
+  <!--Footer ends-->
 
   <!--Testing below ignore-->
   <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
