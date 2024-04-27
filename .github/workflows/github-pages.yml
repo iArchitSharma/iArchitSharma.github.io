@@ -1,30 +1,50 @@
-name: Build and deploy this site to GitHub Pages
+name: Build and Deploy Jekyll Site to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # Change this to your default branch if needed
+  pull_request:
+    branches:
+      - main  # This allows you to trigger the workflow on PRs
 
 jobs:
-  github-pages:
-    runs-on: ubuntu-latest
+  build_and_deploy:
+    runs-on: ubuntu-latest  # The workflow runs on the latest Ubuntu environment
+    
     steps:
-      - uses: actions/checkout@v2
-      - uses: ruby/setup-ruby@v1
+      # Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3  # Ensure you're using the latest version
+        
+      # Set up Ruby and Bundler
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
-          bundler-cache: true
-      - name: Setup Node
+          ruby-version: '3.1'  # The Ruby version to use
+          bundler-cache: true  # Enable Bundler caching for speed
+
+      # Install Node.js for PostCSS/Tailwind CSS if used
+      - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18'
-      - run: npm install
-      - name: Build site
-        uses: limjh16/jekyll-action-ts@v2
-        with:
-          enable_cache: true
-      - name: Deploy
+          node-version: '18'  # Specify the Node.js version
+      
+      # Install Node.js dependencies
+      - name: Install Node.js Dependencies
+        run: npm install  # Install dependencies defined in package.json
+      
+      # Install Ruby dependencies
+      - name: Install Ruby Dependencies
+        run: bundle install  # Install dependencies defined in Gemfile
+
+      # Build the Jekyll site
+      - name: Build Jekyll Site
+        run: bundle exec jekyll build --trace  # Build with tracing for debugging
+      
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: $
-          publish_dir: ./_site
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Token for GitHub authentication
+          publish_dir: ./_site  # Directory to deploy to GitHub Pages
