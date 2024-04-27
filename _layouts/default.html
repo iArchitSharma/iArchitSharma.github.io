@@ -6,7 +6,27 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
-  <body class="text-red-500">
-    {{ content }}
+  <body class="bg-zinc-900 text-zinc-400">
+    <div class="mx-auto max-w-[750px] px-4 pb-20 pt-6 text-lg sm:px-12 md:px-16">
+      <div class="flex items-center justify-between gap-5 rounded-md border border-zinc-700/40 bg-zinc-800 px-5 text-base sm:px-6">
+        <div class="hidden items-center gap-6 sm:flex">
+        <a class="relative flex items-center gap-2 py-3 pr-1 text-sm transition-colors hover:text-zinc-300 sm:text-base" href="#about">About</a>
+        <a class="relative flex items-center gap-2 py-3 pr-1 text-sm transition-colors hover:text-zinc-300 sm:text-base" href="#work">Work</a>
+        <a class="relative flex items-center gap-2 py-3 pr-1 text-sm transition-colors hover:text-zinc-300 sm:text-base" href="#projects">Projects</a>
+        <a class="relative flex items-center gap-2 py-3 pr-1 text-sm transition-colors hover:text-zinc-300 sm:text-base" href="https://dev.to/iarchitsharma">Blogs</a>
+      </div>
+        <a class="relative flex items-center gap-2 py-3 pr-1 text-sm transition-colors hover:text-zinc-300 sm:text-base" href="https://www.linkedin.com/in/iarchitsharma/">Hire Me!</a>
+      </div>
+      <div class="mb-6 mt-8 flex items-center gap-4 sm:mb-8 sm:mt-16 sm:gap-5">
+        <img src="/assets/images/arch.png" class="h-[65px] w-[65px] rounded-full sm:h-[80px] sm:w-[80px]" />
+        <div class="flex flex-col gap-0.5">
+          <h1 class="text-xl font-semibold text-white sm:text-3xl sm:font-bold">Archit Sharma</h1>
+          <span class="text-base sm:text-lg">SDE based in India</span>
+        </div>
+      </div>
+      <div class="flex flex-col gap-3 text-base leading-7 sm:gap-4 sm:text-lg sm:leading-8">
+        <p>Aspiring Software Developer and third-year computer science student. I am eager to learn new technologies and apply them to either develop something helpful or improve existing applications.</p>
+      </div>
+  </div>
   </body>
 </html>
