@@ -2,21 +2,16 @@
 layout: default
 title: "Archit Sharma"
 ---
-
-## My Portfolio
-
-Work in progress, visit Later....Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”
-
-As Cicero would put it, “Um, not so fast.”
-
-The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was Latin.
-
-Richard McClintock, a Latin scholar from Hampden-Sydney College, is credited with discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum, his interest was piqued by consectetur—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from De Finibus Bonorum et Malorum (“On the Extremes of Good and Evil”), a first-century B.C. text from the Roman philosopher Cicero.
-
-In particular, the garbled words of lorem ipsum bear an unmistakable resemblance to sections 1.10.32–33 of Cicero's work, with the most notable passage excerpted below:
-
-“Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.”
-A 1914 English translation by Harris Rackham reads:
-
-“Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure.”
-McClintock's eye for detail certainly helped narrow the whereabouts of lorem ipsum's origin, however, the “how and when” still remain something of a mystery, with competing theories and timelines.
+<main>
+<div class="mb-6 mt-8 flex items-center gap-4 sm:mb-8 sm:mt-16 sm:gap-5">
+        <img src="/assets/images/arch.png" class="h-[65px] w-[65px] rounded-full sm:h-[80px] sm:w-[80px]" />
+        <div class="flex flex-col gap-0.5">
+          <h1 class="text-xl font-semibold text-white sm:text-3xl sm:font-bold">Archit Sharma</h1>
+          <span class="text-base sm:text-lg">SDE based in India</span>
+        </div>
+      </div>
+      <div class="flex flex-col gap-3 text-base leading-7 sm:gap-4 sm:text-lg sm:leading-8">
+        <p>Aspiring Software Developer and third-year computer science student. I am eager to learn new technologies and apply them to either develop something helpful or improve existing applications.</p>
+      </div>
+      {% include social.html %}
+      </main>
