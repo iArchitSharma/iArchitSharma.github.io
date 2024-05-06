@@ -3,6 +3,7 @@ layout: default
 title: "Archit Sharma"
 permalink: /work
 ---
+
 <main>
   <div class="mt-8 sm:mt-16">
     <h1 class="text-xl font-semibold text-zinc-100 sm:text-2xl">Employment History</h1>
@@ -19,14 +20,14 @@ permalink: /work
           <p>I joined the organization by contributing to its open-source projects. I am now working as a Software Engineering Intern and responsible for maintaining its website and documentation.</p>
           <div class="my-1.5 flex flex-row flex-wrap gap-1.5"><span class="rounded-full border border-zinc-700 px-2 text-sm text-zinc-400"> JavaScript </span><span class="rounded-full border border-zinc-700 px-2 text-sm text-zinc-400"> React.js </span><span class="rounded-full border border-zinc-700 px-2 text-sm text-zinc-400"> Node.js </span><span class="rounded-full border border-zinc-700 px-2 text-sm text-zinc-400"> GatsbyJS </span><span class="rounded-full border border-zinc-700 px-2 text-sm text-zinc-400"> Jekyll </span><span class="rounded-full border border-zinc-700 px-2 text-sm text-zinc-400"> HUGO </span><span class="rounded-full border border-zinc-700 px-2 text-sm text-zinc-400"> Tailwind </span><span class="rounded-full border border-zinc-700 px-2 text-sm text-zinc-400"> GitHub </span><span class="rounded-full border border-zinc-700 px-2 text-sm text-zinc-400"> Git </span><span class="rounded-full border border-zinc-700 px-2 text-sm text-zinc-400"> Github Actions </span><span class="rounded-full border border-zinc-700 px-2 text-sm text-zinc-400"> Docker </span><span class="rounded-full border border-zinc-700 px-2 text-sm text-zinc-400"> SEO </span></div>
   
-          <button type="button" class="block w-full cursor-pointer rounded-md bg-zinc-700 bg-gradient-to-l from-zinc-800 px-1 py-2 text-sm font-normal text-zinc-400 transition-colors hover:bg-zinc-500 hover:text-zinc-50 hover:opacity-100 sm:py-1.5">
+          <button type="button" class="block w-full cursor-pointer rounded-md bg-zinc-700 bg-gradient-to-l from-zinc-800 px-1 py-2 text-sm font-normal text-zinc-400 transition-colors hover:bg-zinc-500 hover:text-zinc-50 hover:opacity-100 sm:py-1.5" onclick="unhide(time1)">
               <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-left-right relative -top-[1.35px] inline-block">
                 <path d="m9 7-5 5 5 5"></path>
                 <path d="m15 7 5 5-5 5"></path></svg
               ><span class="ml-1">Show Timeline</span></button
             >
             <!-- test -->
-          <ol class="border-s border-neutral-300 dark:border-neutral-500">
+  <ol id="time1" class="hide border-s border-neutral-300 dark:border-neutral-500">
   <!--First item-->
   <li>
     <div class="flex-start flex items-center pt-3">
@@ -89,4 +90,3 @@ permalink: /work
     </div>
   </div>
 </main>
-

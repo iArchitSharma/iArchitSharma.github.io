@@ -45,3 +45,9 @@ function checkScreenWidth() {
       document.getElementById('full').classList.remove('hidden');
     }
   }
+
+//function to unhide timeline
+
+function unhide(id){
+  document.getElementById(id).classList.remove('hidden');
+}
