@@ -27,7 +27,7 @@ permalink: /work
               ><span class="ml-1">Show Timeline</span></button
             >
             <!-- test -->
-  <ol id="time1" class="hide border-s border-neutral-300 dark:border-neutral-500">
+  <ol id="time1" class="hidden border-s border-neutral-300 dark:border-neutral-500">
   <!--First item-->
   <li>
     <div class="flex-start flex items-center pt-3">
