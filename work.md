@@ -43,7 +43,7 @@ permalink: /work
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
         scelerisque diam non nisi semper, et elementum lorem ornare.
         Maecenas placerat facilisis mollis. Duis sagittis ligula in
-        sodales vehicula.
+        sodales.
       </p> -->
     </div>
   </li>
