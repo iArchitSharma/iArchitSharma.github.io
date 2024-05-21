@@ -51,3 +51,8 @@ function checkScreenWidth() {
 function unhide(id){
   document.getElementById(id).classList.remove('hidden');
 }
+
+//function to hide timeline
+function hide(id){
+  document.getElementById(id).classList.add('hidden');
+}
