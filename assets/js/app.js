@@ -49,7 +49,15 @@ function checkScreenWidth() {
 //function to unhide timeline
 
 function unhide(id){
-  document.getElementById(id).classList.remove('hidden');
+  const element = document.getElementById(id);
+  const buttonText = document.getElementById('buttonText');
+  if (element.classList.contains('hidden')) {
+    element.classList.remove('hidden');
+    buttonText.textContent = 'Hide Timeline';
+  } else {
+    element.classList.add('hidden');
+    buttonText.textContent = 'Show Timeline';
+  }
 }
 
 //function to hide timeline
