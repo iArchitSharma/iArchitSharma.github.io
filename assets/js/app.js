@@ -32,7 +32,7 @@ function checkScreenWidth() {
       <a href="/" class="flex items-center py-1.5 text-xl transition-colors hover:text-zinc-200">About</a>
       <a href="/work" class="flex items-center py-1.5 text-xl transition-colors hover:text-zinc-200">Work</a>
       <a href="/projects" class="flex items-center py-1.5 text-xl transition-colors hover:text-zinc-200">Projects</a>
-      <a href="https://dev.to/iarchitsharma" class="flex items-center py-1.5 text-xl transition-colors hover:text-zinc-200">Blogs</a></div>
+      <a href="/blogs" class="flex items-center py-1.5 text-xl transition-colors hover:text-zinc-200">Blogs</a></div>
     `);
 
   }
