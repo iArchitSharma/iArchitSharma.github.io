@@ -13,7 +13,7 @@ permalink: /work
         <div class="mb-2 flex items-center justify-between text-xs sm:text-sm"><span>Remote</span> <span>Jan 2024 — Present</span></div>
         <div class="mb-3 flex flex-col items-start justify-between gap-2 text-balance text-lg sm:flex-row sm:items-center sm:text-xl">
           <h2 class="my-0 font-medium leading-7 text-zinc-300 sm:my-0 sm:leading-normal">Layer5</h2>
-          <astro-island uid="xnPXO" prefix="r0" component-url="/_astro/EmploymentButton.C2XZ66ek.js" component-export="EmploymentButton" renderer-url="/_astro/client.BoVSEPut.js" props='{"text":[0,"via acquisition"],"type":[0,"roadmapAcquisition"]}' client="load" opts='{"name":"EmploymentButton","value":true}' await-children=""><button class="flex items-center gap-1 rounded-3xl bg-yellow-400 px-2 py-0.5 text-xs text-black transition-colors hover:bg-yellow-600">SWE Intern</button></astro-island>
+          <button class="flex items-center gap-1 rounded-3xl bg-yellow-400 px-2 py-0.5 text-xs text-black transition-colors hover:bg-yellow-600">SWE Intern</button>
         </div>
         <div class="flex flex-col gap-2 text-sm leading-normal text-zinc-400 sm:gap-3 sm:text-base">
           <p>Layer5 drives innovation through collaboration, with a focus on empowering organizations to rethink their infrastructure. Layer5 offer a suite of multi-cluster, multi-cloud infrastructure management products, anchored in open source projects, to help organizations manage their cloud native applications and infrastructure.</p>
