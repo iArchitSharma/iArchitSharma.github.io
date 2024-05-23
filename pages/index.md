@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Archit Sharma"
+permalink: /
 ---
 <main>
 <div class="mb-6 mt-8 flex items-center gap-4 sm:mb-8 sm:mt-16 sm:gap-5">
