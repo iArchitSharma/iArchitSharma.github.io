@@ -13,7 +13,7 @@ permalink: /
       </div>
       <div class="flex flex-col gap-3 text-base leading-7 sm:gap-4 sm:text-lg sm:leading-8">
         <p>Aspiring Software Developer and final year Information Technology student. I am eager to learn new technologies and apply them to either develop something helpful or improve existing applications.</p>
-        <p>Currently, I am an <b>SDE Intern at Layer5</b>, where I also serve as the Maintainer of the <a href="https://docs.layer5.io">docs.layer5.io</a> project. My day-to-day responsibilities include completing assigned tasks, reviewing code, and fixing bugs. Through this experience, I have honed my technical skills and developed a strong understanding of the software development lifecycle, preparing me to take on new challenges in the tech industry.</p>
+        <p>I am currently looking for new opportunities in the tech industry. Previously, I was an <b>SDE Intern at Layer5</b>, where my responsibilities included completing assigned tasks, reviewing code, and fixing bugs. This experience allowed me to hone my technical skills and develop a strong understanding of the software development lifecycle.</p>
       </div>
       {% include social.html %}
       </main>
